@@ -1,0 +1,72 @@
+
+/*********ensemble des chamgement sur le texte***********/
+
+.marginBody{
+    
+    margin: 0px;
+
+}
+
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin:0px;    
+}
+
+/************header version mobile*************/
+
+.imageHeader{
+
+    width: 162px;
+    margin: 0px;
+    padding: 14px 0px 5px 105px ; 
+}
+
+
+.directonParis{
+    background-color:#EAEAEA ;
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    padding: 15.5px 147.5px 15.5px 118.5px;
+}
+
+/******Footer version mobile*****/
+
+
+.footer{
+
+    background-color: #353535;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 22px 25px;
+}
+
+h4{
+   
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;   
+    margin:0px;
+    padding-bottom: 16px;
+    
+}
+
+.directionFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 11px ;
+    padding-bottom:7px ;
+}
+
+.paddingTexteFooter{
+
+    padding-bottom: 7px;
+}
+
