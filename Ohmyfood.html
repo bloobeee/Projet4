@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +14,13 @@
         crossorigin="anonymous" referrerpolicardemarseillecy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+
+<body class="marginBody">
     <header>
-        <img src="Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="logo Ohmyfood">
+        <img src="Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="logo Ohmyfood" class="imageHeader">
     </header>
-    <section>
-        <div>
+    <section >
+        <div class="directonParis">
             <i class="fas fa-map-marker-alt"></i>
             <p>Paris,Belleville</p>
         </div>
@@ -34,51 +34,73 @@
         <h2>Fonctionnement</h2>
         <div>
             <article>
-                <p>1</p><i class="fas fa-mobile-alt	"></i><p>Choisissez un restaurants</p>
+                <span>1</span><i class="fas fa-mobile-alt	"></i>
+                <p>Choisissez un restaurants</p>
             </article>
             <article>
-                <p>2</p><i class="fas fa-list"></i><p>Composez votre menu</p>
-            </section>
-            <article>
-                <p>3</p><i class="fas fa-store"></i><p>Dégusez au restaurant</p>
-            </article>
-        </div>
+                <span>2</span><i class="fas fa-list"></i>
+                <p>Composez votre menu</p>
+    </section>
+    <article>
+        <span>3</span><i class="fas fa-store"></i>
+        <p>Dégusez au restaurant</p>
+    </article>
+    </div>
     </section>
     <section>
         <h2>restaurants</h2>
         <div>
             <article>
-                <img src="Images et textes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurants la palette du goût">
-                <h3>La palette du goût</h3>
-                <P>Ménilmontant</P>
-                <button><i class="far fa-heart"></i></button>
+                <a href="#">
+                    <img src="Images et textes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                        alt="restaurants la palette du goût">
+                    <h3>La palette du goût</h3>
+                    <P>Ménilmontant</P>
+                    <i class="far fa-heart"></i>
+                </a>
             </article>
             <article>
-                <img src="Images et textes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="restaurant la note enchantée">
-                <h3>La note enchantée</h3>
-                <P>Charonne</P>
-                <button><i class="far fa-heart"></i></button>
+                <a href="#">
+                    <img src="Images et textes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                        alt="restaurant la note enchantée">
+                    <h3>La note enchantée</h3>
+                    <P>Charonne</P>
+                    <i class="far fa-heart"></i>
+                </a>
             </article>
             <article>
-                <img src="Images et textes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt=" a la française">
-                <h3>A la française</h3>
-                <P>Cité Rouge</P>
-                <button><i class="far fa-heart"></i></button>
+                <a href="#">
+                    <img src="Images et textes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                        alt=" a la française">
+                    <h3>A la française</h3>
+                    <P>Cité Rouge</P>
+                    <i class="far fa-heart"></i>
+                </a>
             </article>
             <article>
-                <img src="Images et textes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt=" restaurant le délice des sens">
-                <h3>Le délice des sens</h3>
-                <P>Folie-Méricourt</P>
-                <button><i class="far fa-heart"></i></button>
+                <a href="#">
+                    <img src="Images et textes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                        alt=" restaurant le délice des sens">
+                    <h3>Le délice des sens</h3>
+                    <P>Folie-Méricourt</P>
+                    <i class="far fa-heart"></i>
+                </a>
             </article>
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <h4>Ohmyfoood</h4>
-        <i class=" fa-solid fa-utensils"></i><p>Proposer un restaurant</p>
-        <i class="fas fa-hands-helping"></i><p>Devenir partenaire</p>
-        <p>Mentions légales</p>
-        <p>Contact</p>
+        <div class="directionFooter">
+            <i class=" fa-solid fa-utensils"></i>
+            <p>Proposer un restaurant</p>
+        </div>
+        <div class="directionFooter">
+            <i class="fas fa-hands-helping"></i>
+            <p>Devenir partenaire</p>
+        </div>
+        <p class="paddingTexteFooter">Mentions légales</p>
+        <p class="paddingTexteFooter">Contact</p>
     </footer>
 </body>
+
 </html>
