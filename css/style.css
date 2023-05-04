@@ -79,7 +79,69 @@ p{
 
 /*********Fonctionnement version mobile****************/
 
+.fonctionnement{
+    display: flex;
+    flex-direction: column;
+}
 
+.fonctionnementTitle{
+    margin: 0;
+    text-align:left;
+    padding: 48px 0px 26px 20px;
+}
+
+.positionCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap:25px;
+}
+
+.cardSelection{
+    background-color: #F7F7F7;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 80%;
+    height:72px;
+    text-align: center;
+    display: flex;
+}
+
+.chiffreFonctionnement{
+    position: absolute;
+    display: flex;
+    border-radius:50% ;
+    border:1px #9356DC solid;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    color: #F7F7F7;
+    background-color: #9356DC;  
+    margin: 26px 0px;
+    left: 20px;
+}
+
+.directionFoctionnementTexteCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    width: 100%;
+}
+
+.iconFonctionnement{
+    
+    color:#7E7E7E ;
+}
+.fa-store{
+    color:#9356DC ;
+}
+
+.texteFonctionnement{
+
+}
 /******Footer version mobile*****/
 
 
