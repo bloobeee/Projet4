@@ -7,32 +7,76 @@
 
 }
 
-p{
+:root{
     font-family: 'Roboto';
+}
+p{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     margin:0px;    
 }
-
 /************header version mobile*************/
 
 .imageHeader{
-
     width: 162px;
-    margin: 0px;
-    padding: 14px 0px 5px 105px ; 
 }
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px 5px ;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+ }
 
-
-.directonParis{
+.localisation{
     background-color:#EAEAEA ;
     display: flex;
     flex-direction: row;
     gap: 17px;
-    padding: 15.5px 147.5px 15.5px 118.5px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
 }
+/*******reservation et bouton version mobile ***********/
+
+.reservation{
+    background-color:#F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px 57px;
+}
+
+.reservationTitle{
+    margin: 0;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.reservationDescription{
+    width: 85%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 27px;
+
+}
+
+.reservationExplorer{
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding: 13px 19px ;
+    color: #FFFF;
+    border: none;
+}
+
 
 /******Footer version mobile*****/
 
