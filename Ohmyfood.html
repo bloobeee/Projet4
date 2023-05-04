@@ -24,7 +24,6 @@
         <img src="Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="logo Ohmyfood" class="imageHeader">
     </header>
     <section>
-        <!--TODO passé div local en form mais a verifier-->
         <div class="localisation">
             <i class="fas fa-map-marker-alt"></i>
             <p>Paris,Belleville</p>
@@ -35,71 +34,87 @@
             <button class="reservationExplorer">Explorer nos restaurants</button>
         </div>
     </section>
-    <section class="fonctionnement">
+    <section class="fonctionnement"> <!--section fonctionnement-->
         <h2 class="fonctionnementTitle">Fonctionnement</h2>
-        <div class="positionCard">
-            <article class="cardSelection"> <!--TODO pour le 1 CSS position checker-->
+        <div class="fonctionnementCard">
+            <article class="cardSelection">
                 <span class="chiffreFonctionnement">1</span>
                 <div class="directionFoctionnementTexteCard">
-                <i class="fas fa-mobile-alt iconFonctionnement"></i>
-                <p class="texteFonctionnement">Choisissez un restaurants</p>
+                    <i class="fas fa-mobile-alt iconFonctionnement"></i>
+                    <p>Choisissez un restaurant</p>
                 </div>
             </article>
             <article class="cardSelection">
                 <span class="chiffreFonctionnement">2</span>
                 <div class="directionFoctionnementTexteCard">
-                <i class="fas fa-list iconFonctionnement"></i>
-                <p class="texteFonctionnement">Composez votre menu</p>
+                    <i class="fas fa-list iconFonctionnement"></i>
+                    <p>Composez votre menu</p>
                 </div>
             </article>
-            <article class="cardSelection">
+            <article class="cardSelection marginBottomFonctionnement">
                 <span class="chiffreFonctionnement">3</span>
                 <div class="directionFoctionnementTexteCard">
-                <i class="fas fa-store iconFonctionnement"></i>
-                <p class="texteFonctionnement">Dégusez au restaurant</p>
+                    <i class="fas fa-store iconFonctionnement"></i>
+                    <p>Dégustez au restaurant</p>
                 </div>
             </article>
         </div>
     </section>
-    <section>
-        <h2>restaurants</h2>
-        <div>
-            <article>
-                <a href="#">
+    <section class="restaurant"> <!--section restaurant-->
+        <h2 class="titreRestaurant">Restaurants</h2>
+        <div class="restaurantCard">
+            <a href="#" class="restaurantLienCard">
+                <article class="menuCard">
+                    <span class="etiquetteRestaurant">Nouveau</span>
                     <img src="Images et textes Ohmyfood/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                        alt="restaurants la palette du goût">
-                    <h3>La palette du goût</h3>
-                    <P>Ménilmontant</P>
-                    <i class="far fa-heart"></i>
-                </a>
-            </article>
-            <article>
-                <a href="#">
+                        alt="restaurants la palette du goût" class="imgRestaurantCard">
+                    <div class="descriptionRestaurant">
+                        <div>
+                        <h3 class="nomRestaurant">La palette du goût</h3>
+                        <P class="villeRestaurant">Ménilmontant</P>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </article>
+            </a>
+            <a href="#" class="restaurantLienCard">
+                <article class="menuCard">
+                    <span class="etiquetteRestaurant">Nouveau</span>
                     <img src="Images et textes Ohmyfood/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
-                        alt="restaurant la note enchantée">
-                    <h3>La note enchantée</h3>
-                    <P>Charonne</P>
-                    <i class="far fa-heart"></i>
-                </a>
-            </article>
-            <article>
-                <a href="#">
+                        alt="restaurant la note enchantée" class="imgRestaurantCard">
+                    <div class="descriptionRestaurant">
+                        <div><h3 class="nomRestaurant">La note enchantée</h3>
+                        <P class="villeRestaurant">Charonne</P></div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </article>
+            </a>
+            <a href="#" class="restaurantLienCard">
+                <article class="menuCard">
                     <img src="Images et textes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-                        alt=" a la française">
-                    <h3>A la française</h3>
-                    <P>Cité Rouge</P>
-                    <i class="far fa-heart"></i>
-                </a>
-            </article>
-            <article>
-                <a href="#">
+                        alt=" a la française" class="imgRestaurantCard">
+                    <div class="descriptionRestaurant">
+                        <div>
+                        <h3 class="nomRestaurant">À la française</h3>
+                        <P class="villeRestaurant">Cité Rouge</P>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </article>
+            </a>
+            <a href="#" class="restaurantLienCard">
+                <article class="menuCard">
                     <img src="Images et textes Ohmyfood/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
-                        alt=" restaurant le délice des sens">
-                    <h3>Le délice des sens</h3>
-                    <P>Folie-Méricourt</P>
-                    <i class="far fa-heart"></i>
-                </a>
-            </article>
+                        alt=" restaurant le délice des sens" class="imgRestaurantCard">
+                    <div class="descriptionRestaurant">
+                        <div>
+                        <h3 class="nomRestaurant">Le délice des sens</h3>
+                        <P class="villeRestaurant">Folie-Méricourt</P>
+                        </div>
+                        <i class="far fa-heart"></i>
+                    </div>
+                </article>
+            </a>
         </div>
     </section>
     <footer class="footer">
