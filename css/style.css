@@ -1,37 +1,39 @@
-
 /*********ensemble des chamgement sur le texte***********/
 
-.marginBody{
-    
+.marginBody {
+
     margin: 0px;
 
 }
 
-:root{
+:root {
     font-family: 'Roboto';
 }
-p{
+
+p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    margin:0px;    
+    margin: 0px;
 }
+
 /************header version mobile*************/
 
-.imageHeader{
+.imageHeader {
     width: 162px;
 }
- header{
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 14px 0px 5px ;
+    padding: 14px 0px 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
- }
+}
 
-.localisation{
-    background-color:#EAEAEA ;
+.localisation {
+    background-color: #EAEAEA;
     display: flex;
     flex-direction: row;
     gap: 17px;
@@ -40,10 +42,11 @@ p{
     height: 50px;
     align-items: center;
 }
+
 /*******reservation et bouton version mobile ***********/
 
-.reservation{
-    background-color:#F7F7F7;
+.reservation {
+    background-color: #F7F7F7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,14 +54,14 @@ p{
     padding: 40px 0px 57px;
 }
 
-.reservationTitle{
+.reservationTitle {
     margin: 0;
     width: 75%;
     text-align: center;
     margin-bottom: 15px;
 }
 
-.reservationDescription{
+.reservationDescription {
     width: 85%;
     text-align: center;
     font-weight: 300;
@@ -68,62 +71,62 @@ p{
 
 }
 
-.reservationExplorer{
+.reservationExplorer {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
-    padding: 13px 19px ;
+    padding: 13px 19px;
     color: #FFFF;
     border: none;
 }
 
 /*********Fonctionnement version mobile****************/
 
-.fonctionnement{
+.fonctionnement {
     display: flex;
     flex-direction: column;
 }
 
-.fonctionnementTitle{
+.fonctionnementTitle {
     margin: 0;
-    text-align:left;
+    text-align: left;
     padding: 48px 0px 26px 20px;
 }
 
-.positionCard{
+.fonctionnementCard {
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    gap:25px;
+    gap: 25px;
 }
 
-.cardSelection{
+.cardSelection {
     background-color: #F7F7F7;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     width: 80%;
-    height:72px;
+    height: 72px;
     text-align: center;
     display: flex;
 }
 
-.chiffreFonctionnement{
+.chiffreFonctionnement {
     position: absolute;
     display: flex;
-    border-radius:50% ;
-    border:1px #9356DC solid;
+    border-radius: 50%;
+    border: 1px #9356DC solid;
     width: 25px;
     height: 25px;
     align-items: center;
     justify-content: center;
     color: #F7F7F7;
-    background-color: #9356DC;  
+    background-color: #9356DC;
     margin: 26px 0px;
     left: 20px;
 }
 
-.directionFoctionnementTexteCard{
+.directionFoctionnementTexteCard {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,21 +134,102 @@ p{
     width: 100%;
 }
 
-.iconFonctionnement{
-    
-    color:#7E7E7E ;
-}
-.fa-store{
-    color:#9356DC ;
+.iconFonctionnement {
+    color: #7E7E7E;
 }
 
-.texteFonctionnement{
+.fa-store {
+    color: #9356DC;
+}
+.marginBottomFonctionnement{
+    margin-bottom:54px ;
+}
+
+/***************restaurant version mobile ******************/
+
+
+.restaurant{
+    background-color:#F7F7F7 ;
+    padding: 54px 20px 66px 20px;
+}
+
+.titreRestaurant{
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.restaurantCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menuCard{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    height:251px ;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.restaurantLienCard{
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+}
+
+.etiquetteRestaurant{
+    display: flex;
+    position: absolute;
+    color:#008766;
+    background-color: #99E2D0;
+    padding:9px 7px 6px 9px ;
+    margin:10px ;
+    border-radius: 2px;
+    left: 251px;
 
 }
-/******Footer version mobile*****/
+
+.imgRestaurantCard{
+    height: 70%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.descriptionRestaurant{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nomRestaurant{
+    margin: 0px;  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 5px 0px;
+}
+
+.villeRestaurant{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+}
+ 
+ .fa-heart{
+    font-size: 30px;
+ }
 
 
-.footer{
+/*******************Footer version mobile**************/
+
+
+.footer {
 
     background-color: #353535;
     color: #fff;
@@ -154,26 +238,25 @@ p{
     padding: 22px 25px;
 }
 
-.imageFooter{   
+.imageFooter {
     width: 137px;
     padding-bottom: 16px;
     color: white;
 }
 
-.lienFooter{
+.lienFooter {
     text-decoration: none;
     color: #fff;
 }
 
-.directionFooter{
+.directionFooter {
     display: flex;
     flex-direction: row;
-    gap: 11px ;
-    padding-bottom:7px ;
-}
-
-.paddingTexteFooter{
-
+    gap: 11px;
     padding-bottom: 7px;
 }
 
+.paddingTexteFooter {
+
+    padding-bottom: 7px;
+}
