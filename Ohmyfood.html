@@ -24,7 +24,7 @@
         <img src="Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="logo Ohmyfood" class="imageHeader">
     </header>
     <section>
-        <!--TODO passé div local en form -->
+        <!--TODO passé div local en form mais a verifier-->
         <div class="localisation">
             <i class="fas fa-map-marker-alt"></i>
             <p>Paris,Belleville</p>
@@ -35,22 +35,31 @@
             <button class="reservationExplorer">Explorer nos restaurants</button>
         </div>
     </section>
-    <section>
-        <h2>Fonctionnement</h2>
-        <div>
-            <article><!--TODO pour le 1 CSS position checker-->
-                <span>1</span><i class="fas fa-mobile-alt"></i>
-                <p>Choisissez un restaurants</p>
+    <section class="fonctionnement">
+        <h2 class="fonctionnementTitle">Fonctionnement</h2>
+        <div class="positionCard">
+            <article class="cardSelection"> <!--TODO pour le 1 CSS position checker-->
+                <span class="chiffreFonctionnement">1</span>
+                <div class="directionFoctionnementTexteCard">
+                <i class="fas fa-mobile-alt iconFonctionnement"></i>
+                <p class="texteFonctionnement">Choisissez un restaurants</p>
+                </div>
             </article>
-            <article>
-                <span>2</span><i class="fas fa-list"></i>
-                <p>Composez votre menu</p>
-    </section>
-    <article>
-        <span>3</span><i class="fas fa-store"></i>
-        <p>Dégusez au restaurant</p>
-    </article>
-    </div>
+            <article class="cardSelection">
+                <span class="chiffreFonctionnement">2</span>
+                <div class="directionFoctionnementTexteCard">
+                <i class="fas fa-list iconFonctionnement"></i>
+                <p class="texteFonctionnement">Composez votre menu</p>
+                </div>
+            </article>
+            <article class="cardSelection">
+                <span class="chiffreFonctionnement">3</span>
+                <div class="directionFoctionnementTexteCard">
+                <i class="fas fa-store iconFonctionnement"></i>
+                <p class="texteFonctionnement">Dégusez au restaurant</p>
+                </div>
+            </article>
+        </div>
     </section>
     <section>
         <h2>restaurants</h2>
@@ -93,8 +102,9 @@
             </article>
         </div>
     </section>
-    <footer class="footer"> 
-        <img class="imageFooter" src="Images et textes Ohmyfood/images/logo/ohmyfood@2x.svg" alt="logo Ohmyfood"> <!--TODO changer la couleur en blanc-->
+    <footer class="footer">
+        <img class="imageFooter" src="Images et textes Ohmyfood/images/logo/ohmyfood@2x.svg" alt="logo Ohmyfood">
+        <!--TODO changer la couleur en blanc-->
         <a href="#" class="lienFooter">
             <div class="directionFooter">
                 <i class=" fa-solid fa-utensils"></i>
