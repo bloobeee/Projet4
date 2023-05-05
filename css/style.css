@@ -122,8 +122,8 @@ header {
     justify-content: center;
     color: #F7F7F7;
     background-color: #9356DC;
-    margin: 26px 0px;
-    left: 20px;
+    margin: 26px -15px;
+    
 }
 
 .directionFoctionnementTexteCard {
@@ -141,65 +141,66 @@ header {
 .fa-store {
     color: #9356DC;
 }
-.marginBottomFonctionnement{
-    margin-bottom:54px ;
+
+.marginBottomFonctionnement {
+    margin-bottom: 54px;
 }
 
 /***************restaurant version mobile ******************/
 
 
-.restaurant{
-    background-color:#F7F7F7 ;
+.restaurant {
+    background-color: #F7F7F7;
     padding: 54px 20px 66px 20px;
 }
 
-.titreRestaurant{
+.titreRestaurant {
     margin: 0;
     padding-bottom: 25px;
 }
 
-.restaurantCard{
+.restaurantCard {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.menuCard{
+.menuCard {
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    height:251px ;
+    height: 251px;
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.restaurantLienCard{
+.restaurantLienCard {
     text-decoration: none;
     color: #000000;
     width: 100%;
 }
 
-.etiquetteRestaurant{
+.etiquetteRestaurant {
     display: flex;
     position: absolute;
-    color:#008766;
+    color: #008766;
     background-color: #99E2D0;
-    padding:9px 7px 6px 9px ;
-    margin:10px ;
+    padding: 9px 7px 6px 9px;
+    margin: 10px;
     border-radius: 2px;
-    left: 251px;
+    right: 40px;
 
 }
 
-.imgRestaurantCard{
+.imgRestaurantCard {
     height: 70%;
     width: 100%;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
-.descriptionRestaurant{
+.descriptionRestaurant {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -207,23 +208,23 @@ header {
 
 }
 
-.nomRestaurant{
-    margin: 0px;  
+.nomRestaurant {
+    margin: 0px;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     padding: 5px 0px;
 }
 
-.villeRestaurant{
+.villeRestaurant {
     font-weight: 300;
     font-size: 17px;
     line-height: 20px;
 }
- 
- .fa-heart{
+
+.fa-heart {
     font-size: 30px;
- }
+}
 
 
 /*******************Footer version mobile**************/
@@ -259,4 +260,94 @@ header {
 .paddingTexteFooter {
 
     padding-bottom: 7px;
+}
+
+
+/********* version desktop*************/
+
+@media (min-width:1200px) {
+
+    /**********header version desktop**********/
+
+    header{
+        padding: 30px 0px;
+    }
+
+    /*******fonctionement version desktop************/
+
+
+     .cardSelection{
+        width: 20%;
+     }
+    
+     .fonctionnementTitle{
+        padding-left: 18%;
+     }
+    .fonctionnementCard{
+        flex-direction: row;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+
+    .marginBottomFonctionnement{
+        margin: 0;
+    }
+
+    .directionFoctionnementTexteCard{
+        width: 80%;
+    }
+
+    /************restaurant version desktop*****************/
+
+    .titreRestaurant{
+        padding-left:16% ;
+    }
+
+    .etiquetteRestaurant{
+        right: auto;
+    }
+    .restaurantCard{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .restaurantLienCard{
+
+        width: 33%;
+        margin: 0;
+    }
+
+    .menuCard{
+        width: 80%;
+    }
+
+    /************footer viersion desktop ************/
+
+    .footer{
+        flex-direction: row-reverse;
+        padding: 64px 26px 31px;
+    }
+
+    .imageFooter{
+        padding: 0px 0px 0px 90px;
+
+    }
+
+    .directionFooterDesktop{
+        display: flex;
+        gap: 25px;
+        align-items: flex-end;
+    }
+
+    .directionFooter{
+        padding: 0;
+    }
+    
+    .paddingTexteFooter{
+        padding: 0;
+    }
+
+
 }
