@@ -18,6 +18,7 @@ p {
     margin: 0px;
 }
 
+
 /************header version mobile*************/
 
 .imageHeader {
@@ -222,9 +223,7 @@ header {
     line-height: 20px;
 }
 
-.fa-heart {
-    font-size: 30px;
-}
+
 
 
 /*******************Footer version mobile**************/
@@ -261,7 +260,131 @@ header {
 
     padding-bottom: 7px;
 }
+/*************animation **************/
 
+/**********page entre acueil**********/
+#loader {
+    width: 100px;
+    height: 100px; 
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+    position: absolute;
+    top: 50%;
+    left: 45%; 
+    animation: loader 2.9s 100ms;
+    opacity: 0;
+  }
+  
+  .one {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #2c3e50; /* f3f3f3 */ 
+    position: absolute;
+    border-radius: 50%;
+    border-right: 2px solid #9b59b6;
+    border-left: 2px solid #3498db;
+    -webkit-animation: spin-right 2s linear infinite;
+    animation: spin-right 2s linear infinite;
+  }
+  
+  .two {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #2c3e50; /* f3f3f3 */ 
+    position: absolute;
+    border-radius: 50%;
+    margin: 10px; 
+    border-bottom: 2px solid #e67e22;
+    border-top: 2px solid #f1c40f;
+    -webkit-animation: spin-left 1s linear infinite;
+    animation: spin-left 1s linear infinite;
+  }
+  
+  .three {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #2c3e50; /* f3f3f3 */ 
+    position: absolute;
+    border-radius: 50%;
+    margin: 20px; 
+    border-top: 2px solid #2ecc71;
+    -webkit-animation: spin-right 1s linear infinite;
+    animation: spin-right 1s linear infinite;
+  }
+  
+  @keyframes spin-left {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+  }
+  
+  @keyframes spin-right {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .animationLoader{
+    animation: loaderbackg 3.3s;
+  }
+  @keyframes loaderbackg {
+    0% {
+      opacity: 0;
+    }
+    79% {
+      opacity: 0;
+    }
+    80% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes loader {
+    0% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+      transform: rotateY(1440deg);
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: rotateY(1440deg);
+    }
+  }
+/**************coeur*************/
+.fa-heart {
+    font-size: 30px;
+}
+
+.animationCoeur{
+    display: inline-flex;
+}
+
+.coeurVide{
+    position: relative;
+    z-index: 2;
+    font-size: 30px;
+    opacity: 1;
+
+}
+.coeurVide:hover{
+    opacity: 0;
+}
+
+.coeurPlein {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    transition: all 400ms ease-out;
+}
+
+.coeurPlein:hover{
+    opacity: 1;
+    color:#9356DC;
+}
 
 /********* version desktop*************/
 
@@ -278,8 +401,15 @@ header {
 
      .cardSelection{
         width: 20%;
+        position: relative;
+        justify-content: center;
      }
     
+     .chiffreFonctionnement{
+        margin: unset;
+        left: -13px;
+        top: 23px;
+     }
      .fonctionnementTitle{
         padding-left: 18%;
      }
@@ -287,6 +417,7 @@ header {
         flex-direction: row;
         margin-bottom: 50px;
         justify-content: center;
+        gap: 35px;
     }
 
     .marginBottomFonctionnement{
