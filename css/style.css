@@ -278,11 +278,11 @@ header {
   .one {
     width: 120px;
     height: 120px;
-    border: 2px solid #2c3e50; /* f3f3f3 */ 
+    border: 2px solid #9356DC; /* f3f3f3 */ 
     position: absolute;
     border-radius: 50%;
-    border-right: 2px solid #9b59b6;
-    border-left: 2px solid #3498db;
+    border-right: 2px solid #FF79DA;
+    border-left: 2px solid #FF79DA;
     -webkit-animation: spin-right 2s linear infinite;
     animation: spin-right 2s linear infinite;
   }
@@ -290,12 +290,12 @@ header {
   .two {
     width: 100px;
     height: 100px;
-    border: 2px solid #2c3e50; /* f3f3f3 */ 
+    border: 2px solid #9356DC; /* f3f3f3 */ 
     position: absolute;
     border-radius: 50%;
     margin: 10px; 
-    border-bottom: 2px solid #e67e22;
-    border-top: 2px solid #f1c40f;
+    border-bottom: 2px solid #FF79DA;
+    border-top: 2px solid #FF79DA;
     -webkit-animation: spin-left 1s linear infinite;
     animation: spin-left 1s linear infinite;
   }
@@ -303,11 +303,11 @@ header {
   .three {
     width: 80px;
     height: 80px;
-    border: 2px solid #2c3e50; /* f3f3f3 */ 
+    border: 2px solid #9356DC; /* f3f3f3 */ 
     position: absolute;
     border-radius: 50%;
     margin: 20px; 
-    border-top: 2px solid #2ecc71;
+    border-top: 2px solid #FF79DA;
     -webkit-animation: spin-right 1s linear infinite;
     animation: spin-right 1s linear infinite;
   }
