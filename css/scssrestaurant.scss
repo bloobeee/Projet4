@@ -309,48 +309,62 @@ header {
     }
 
     /*********titre restaurant***********/
+    .marginImageRestaurant {
 
-    .imageRestaurent {
-        height: 500px;
-        object-fit: cover;
-    }
 
-    .sectionCarte {
-        margin: 200px 15% 0 15%;
-        padding: 10px 15% 50px 15%;
+        .imageRestaurent {
+            height: 500px;
+            object-fit: cover;
+        }
     }
+}
+
+.sectionCarte {
+    margin: 200px 15% 0 15%;
+    padding: 10px 15% 50px 15%;
 
     .titreRestaurant {
         justify-content: center;
         gap: 15px;
     }
+}
 
 
 
 
-    /************footer viersion desktop ************/
+/************footer viersion desktop ************/
+
+
+
+.directionFooterDesktop {
+    display: flex;
+    gap: 25px;
+    align-items: flex-end;
+
 
     .footer {
+
         flex-direction: row-reverse;
         padding: 64px 26px 31px;
-    }
 
-    .imageFooter {
-        padding: 0px 0px 0px 90px;
+        .imageFooter {
+            padding: 0px 0px 0px 90px;
+        }
 
-    }
+        .lienFooter {
+            text-decoration: none;
+            color: #fff;
 
-    .directionFooterDesktop {
-        display: flex;
-        gap: 25px;
-        align-items: flex-end;
-    }
+            .paddingTexteFooter {
+                padding: 0;
+            }
 
-    .directionFooter {
-        padding: 0;
-    }
+            .directionFooter {
+                display: flex;
+                gap: 25px;
+                align-items: flex-end;
 
-    .paddingTexteFooter {
-        padding: 0;
+            }
+        }
     }
 }
