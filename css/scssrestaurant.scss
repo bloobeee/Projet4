@@ -125,82 +125,96 @@ header {
             }
         }
     }
+}
 
-    .cardCarteRepas {
-        width: 100%;
+.cardCarteRepas {
+    width: 100%;
 
-        .cardDetailleRepas {
-            background-color: #ffffff;
-            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            margin-top: 12px;
-            height: 65px;
+    .cardDetailleRepas {
+        background-color: #ffffff;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        height: 65px;
 
-            .texteWitdh {
-                width: 100%;
-                padding: 12px 0px 12px 12px;
+        .texteWitdh {
+            width: 100%;
+            padding: 12px 0px 12px 12px;
 
-                .descriptionTexteRepas {
-
-
-                    font-weight: 300;
-                    font-size: 15px;
-                    line-height: 18px;
-                    text-align: start;
-                }
-            }
-
-            .eurosCardRepas {
-
-                font-weight: 700;
+            .descriptionTexteRepas {
+                font-weight: 300;
                 font-size: 15px;
                 line-height: 18px;
+                text-align: start;
+            }
+        }
+
+        .eurosCardRepas {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+
+            .contenantCheck {
+                height: 100%;
+                background-color: green;
                 display: flex;
                 align-items: center;
-                text-align: center;
-                height: 100%;
+                border-radius: 0px 15px 15px 0px;
+                width: 0px;
+                justify-content: center;
+            }
+        }
 
-                .contenantCheck {
-                    height: 100%;
-                    background-color: green;
-                    display: flex;
-                    align-items: center;
-                    border-radius: 0px 15px 15px 0px;
-                    width: 0px;
-                    justify-content: center;
-                }
+        &:hover {
+            .contenantCheck {
+                width: 60px;
+                animation: left 1s ease;
+                transform-origin: right;
+                transition-property: all;
             }
 
+            .check {
+                display: block;
+            }
+        }
+
+        &:not(:hover) {
+            .contenantCheck {
+                animation: return 1s ease;
+                transform-origin: left;
+                transition-property: all;
+            }
+        }
+
+        .check {
+            color: white;
+            font-size: 20px;
+            display: none;
         }
     }
 }
 
 
+
+
+
 /*********articlee entrer plats et dessert**********/
+@keyframes return {
+    0% {
+        width: 60px;
+    }
 
-
-
-
-
-.cardDetailleRepas:hover .contenantCheck {
-    width: 60px;
-    animation: left 0.5s ease;
-    transform-origin: right;
+    100% {
+        width: 0px;
+    }
 }
 
-.cardDetailleRepas:hover .check {
-    display: block;
-
-
-}
-
-.check {
-    color: white;
-    font-size: 20px;
-    display: none;
-}
 
 @keyframes left {
 
@@ -212,6 +226,7 @@ header {
         transform: scaleX(1);
     }
 }
+
 
 
 /***********bouton*************/
@@ -228,6 +243,11 @@ header {
         padding: 16px 35px;
         color: #FFFF;
         border: none;
+
+        &:hover {
+            background: linear-gradient(355deg, #9356DC -5.2%, #FF79DA 110.74%);
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.35);
+        }
     }
 }
 
@@ -264,6 +284,7 @@ header {
         }
     }
 }
+
 
 /************animation************/
 
@@ -317,54 +338,47 @@ header {
             object-fit: cover;
         }
     }
-}
-
-.sectionCarte {
-    margin: 200px 15% 0 15%;
-    padding: 10px 15% 50px 15%;
-
-    .titreRestaurant {
-        justify-content: center;
-        gap: 15px;
-    }
-}
 
 
+    .sectionCarte {
+        margin: 200px 15% 0 15%;
+        padding: 10px 15% 50px 15%;
 
-
-/************footer viersion desktop ************/
-
-
-
-.directionFooterDesktop {
-    display: flex;
-    gap: 25px;
-    align-items: flex-end;
-
-
-    .footer {
-
-        flex-direction: row-reverse;
-        padding: 64px 26px 31px;
-
-        .imageFooter {
-            padding: 0px 0px 0px 90px;
+        .titreRestaurant {
+            justify-content: center;
+            gap: 15px;
         }
+    }
 
-        .lienFooter {
-            text-decoration: none;
-            color: #fff;
+        /************footer viersion desktop ************/
 
-            .paddingTexteFooter {
-                padding: 0;
+        .footer {
+
+            flex-direction: row-reverse;
+            padding: 64px 26px 31px;
+            gap: 40px;
+
+            .imageFooter {
+                padding: 0px;
             }
 
-            .directionFooter {
+            .directionFooterDesktop {
                 display: flex;
                 gap: 25px;
                 align-items: flex-end;
 
+
+                .paddingTexteFooter {
+                    padding: 0;
+                }
+
+                .directionFooter {
+                    display: flex;
+                    gap: 25px;
+                    align-items: flex-end;
+                    padding-bottom: 0px;
+
+                }
             }
         }
     }
-}
