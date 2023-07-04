@@ -172,7 +172,7 @@ header {
     
 
     .titreRestaurant {
-        margin-bottom: 50px;
+        padding-top: 30px;
         /*****@media(max-width: 1200px) {padding-left: 16%;}exemple pour media querry**********/
     }
 
@@ -180,6 +180,7 @@ header {
         display: flex;
         flex-direction: column;
         gap: 18px;
+        padding-bottom: 50px;
         
 
         .restaurantLienCard {
@@ -407,13 +408,13 @@ header {
     right: 20px;
 
     .fa-heart {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .coeurVide {
         position: relative;
         z-index: 2;
-        font-size: 30px;
+        font-size: 20px;
         opacity: 1;
 
         &:hover {
@@ -495,11 +496,13 @@ header {
     .restaurant {
         padding: 50px 180px;
     
-
+        .titreRestaurant{padding-top: 0px;}
+        
         .restaurantCard {
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-between;
+            padding-bottom: 0px;
             
 
             .restaurantLienCard {

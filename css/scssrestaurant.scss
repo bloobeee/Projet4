@@ -90,19 +90,21 @@ header {
         display: flex;
         align-items: center;
         padding: 32px 17px 42px 17px;
+        gap: 60px;
+        justify-content: center;
     }
 
     .animationCoeur {
         display: inline-flex;
 
         .fa-heart {
-            font-size: 30px;
+            font-size: 22px;
         }
 
         .coeurVide {
             position: relative;
             z-index: 2;
-            font-size: 30px;
+            font-size: 22px;
             opacity: 1;
 
             &:hover {
@@ -157,12 +159,11 @@ header {
             line-height: 18px;
             display: flex;
             align-items: center;
-            text-align: center;
             height: 100%;
 
             .contenantCheck {
                 height: 100%;
-                background-color: green;
+                background-color: #99E2D0;
                 display: flex;
                 align-items: center;
                 border-radius: 0px 15px 15px 0px;

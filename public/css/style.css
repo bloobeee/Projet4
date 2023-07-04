@@ -138,13 +138,14 @@ header .imageHeader {
   padding: 0px 17px;
 }
 .restaurant .titreRestaurant {
-  margin-bottom: 50px;
+  padding-top: 30px;
   /*****@media(max-width: 1200px) {padding-left: 16%;}exemple pour media querry**********/
 }
 .restaurant .restaurantCard {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  padding-bottom: 50px;
 }
 .restaurant .restaurantCard .restaurantLienCard {
   text-decoration: none;
@@ -329,12 +330,12 @@ header .imageHeader {
   right: 20px;
 }
 .animationCoeur .fa-heart {
-  font-size: 30px;
+  font-size: 20px;
 }
 .animationCoeur .coeurVide {
   position: relative;
   z-index: 2;
-  font-size: 30px;
+  font-size: 20px;
   opacity: 1;
 }
 .animationCoeur .coeurVide:hover {
@@ -390,10 +391,14 @@ header .imageHeader {
   .restaurant {
     padding: 50px 180px;
   }
+  .restaurant .titreRestaurant {
+    padding-top: 0px;
+  }
   .restaurant .restaurantCard {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 0px;
   }
   .restaurant .restaurantCard .restaurantLienCard {
     width: 48%;
