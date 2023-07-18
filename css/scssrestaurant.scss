@@ -16,6 +16,7 @@ p {
     font-size: 16px;
     line-height: 19px;
     margin: 0px;
+    
 }
 
 h1 {
@@ -38,6 +39,11 @@ h3 {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
+    margin-right: 20px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /************header version mobile ****************/
@@ -84,6 +90,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
+    top: -50px;
 
     .titreRestaurant {
         display: flex;
@@ -139,16 +146,25 @@ header {
         align-items: center;
         margin-top: 12px;
         height: 65px;
+        overflow: hidden;
+        cursor: pointer;
+       
 
         .texteWitdh {
             width: 100%;
             padding: 12px 0px 12px 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
 
             .descriptionTexteRepas {
                 font-weight: 300;
                 font-size: 15px;
                 line-height: 18px;
                 text-align: start;
+                display: inline-block;
+                
             }
         }
 
@@ -157,8 +173,9 @@ header {
             font-size: 15px;
             line-height: 18px;
             display: flex;
-            align-items: center;
+            align-items: end;
             height: 100%;
+
 
             .contenantCheck {
                 height: 100%;
@@ -168,6 +185,7 @@ header {
                 border-radius: 0px 15px 15px 0px;
                 width: 0px;
                 justify-content: center;
+                transition: width 1s ease;
             }
         }
 
@@ -182,15 +200,12 @@ header {
             .check {
                 display: block;
             }
-        }
 
-        &:not(:hover) {
-            .contenantCheck {
-                animation: return 1s ease;
-                transform-origin: left;
-                transition-property: all;
+            .texteWitdh {
+                width: calc(100% - 60px);
             }
         }
+
 
         .check {
             color: white;
@@ -199,6 +214,9 @@ header {
         }
     }
 }
+
+
+
 
 
 
@@ -243,6 +261,7 @@ header {
         padding: 16px 90px;
         color: #FFFF;
         border: none;
+        cursor: pointer;
 
         &:hover {
             background: linear-gradient(355deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -343,6 +362,7 @@ header {
     .sectionCarte {
         margin: 200px 15% 0 15%;
         padding: 10px 15% 50px 15%;
+        top: 0;
 
         .titreRestaurant {
             justify-content: center;
@@ -350,35 +370,36 @@ header {
         }
     }
 
-        /************footer viersion desktop ************/
+    /************footer viersion desktop ************/
 
-        .footer {
+    .footer {
 
-            flex-direction: row-reverse;
-            padding: 64px 26px 31px;
-            gap: 40px;
+        flex-direction: row-reverse;
+        padding: 64px 26px 31px;
+        gap: 90px;
 
-            .imageFooter {
-                padding: 0px;
+        .imageFooter {
+            padding: 0px;
+
+        }
+
+        .directionFooterDesktop {
+            display: flex;
+            gap: 25px;
+            align-items: flex-end;
+
+
+            .paddingTexteFooter {
+                padding: 0;
             }
 
-            .directionFooterDesktop {
+            .directionFooter {
                 display: flex;
                 gap: 25px;
                 align-items: flex-end;
+                padding-bottom: 0px;
 
-
-                .paddingTexteFooter {
-                    padding: 0;
-                }
-
-                .directionFooter {
-                    display: flex;
-                    gap: 25px;
-                    align-items: flex-end;
-                    padding-bottom: 0px;
-
-                }
             }
         }
     }
+}

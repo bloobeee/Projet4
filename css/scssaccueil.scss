@@ -76,6 +76,7 @@ header {
         padding: 13px 35px;
         color: #FFFF;
         border: none;
+        cursor: pointer;
 
         &:hover {
             background: linear-gradient(355deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -521,7 +522,7 @@ header {
 
         flex-direction: row-reverse;
         padding: 64px 26px 31px;
-        gap: 40px;
+        gap: 90px;
     
         .imageFooter {
             padding: 0px;
@@ -529,7 +530,7 @@ header {
     
         .directionFooterDesktop {
             display: flex;
-            gap: 25px;
+            gap: 30px;
             align-items: flex-end;
     
     
@@ -539,7 +540,6 @@ header {
     
             .directionFooter {
                 display: flex;
-                gap: 25px;
                 align-items: flex-end;
                 padding-bottom: 0px;
     
