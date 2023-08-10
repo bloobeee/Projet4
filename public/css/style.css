@@ -68,6 +68,10 @@ header .imageHeader {
   padding: 13px 35px;
   color: white;
   border: none;
+<<<<<<< HEAD
+=======
+  cursor: pointer;
+>>>>>>> tmp
 }
 .reservation .reservationExplorer:hover {
   background: linear-gradient(355deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -407,14 +411,22 @@ header .imageHeader {
   .footer {
     flex-direction: row-reverse;
     padding: 64px 26px 31px;
+<<<<<<< HEAD
     gap: 40px;
+=======
+    gap: 90px;
+>>>>>>> tmp
   }
   .footer .imageFooter {
     padding: 0px;
   }
   .footer .directionFooterDesktop {
     display: flex;
+<<<<<<< HEAD
     gap: 25px;
+=======
+    gap: 30px;
+>>>>>>> tmp
     align-items: flex-end;
   }
   .footer .directionFooterDesktop .paddingTexteFooter {
@@ -422,7 +434,10 @@ header .imageHeader {
   }
   .footer .directionFooterDesktop .directionFooter {
     display: flex;
+<<<<<<< HEAD
     gap: 25px;
+=======
+>>>>>>> tmp
     align-items: flex-end;
     padding-bottom: 0px;
   }
