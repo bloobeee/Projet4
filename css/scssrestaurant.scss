@@ -206,13 +206,6 @@ header {
             }
         }
 
-        &:not(:hover) {
-            .contenantCheck {
-                animation: return 1s ease;
-                transform-origin: left;
-                transition-property: all;
-            }
-        }
 
         .check {
             color: white;

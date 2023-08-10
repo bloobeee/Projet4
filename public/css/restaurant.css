@@ -172,11 +172,6 @@ header .imageHeader {
 .cardCarteRepas .cardDetailleRepas:hover .texteWitdh {
   width: calc(100% - 60px);
 }
-.cardCarteRepas .cardDetailleRepas:not(:hover) .contenantCheck {
-  animation: return 1s ease;
-  transform-origin: left;
-  transition-property: all;
-}
 .cardCarteRepas .cardDetailleRepas .check {
   color: white;
   font-size: 20px;
