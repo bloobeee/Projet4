@@ -35,13 +35,10 @@ h3 {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-<<<<<<< HEAD
-=======
   margin-right: 20px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
->>>>>>> tmp
 }
 
 /************header version mobile ****************/
@@ -79,10 +76,7 @@ header .imageHeader {
   display: flex;
   flex-direction: column;
   position: relative;
-<<<<<<< HEAD
-=======
   top: -50px;
->>>>>>> tmp
 }
 .sectionCarte .titreRestaurant {
   display: flex;
@@ -131,42 +125,29 @@ header .imageHeader {
   align-items: center;
   margin-top: 12px;
   height: 65px;
-<<<<<<< HEAD
-=======
   overflow: hidden;
   cursor: pointer;
->>>>>>> tmp
 }
 .cardCarteRepas .cardDetailleRepas .texteWitdh {
   width: 100%;
   padding: 12px 0px 12px 12px;
-<<<<<<< HEAD
-=======
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
->>>>>>> tmp
 }
 .cardCarteRepas .cardDetailleRepas .texteWitdh .descriptionTexteRepas {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: start;
-<<<<<<< HEAD
-=======
   display: inline-block;
->>>>>>> tmp
 }
 .cardCarteRepas .cardDetailleRepas .eurosCardRepas {
   font-weight: 700;
   font-size: 15px;
   line-height: 18px;
   display: flex;
-<<<<<<< HEAD
-  align-items: center;
-=======
   align-items: end;
->>>>>>> tmp
   height: 100%;
 }
 .cardCarteRepas .cardDetailleRepas .eurosCardRepas .contenantCheck {
@@ -177,10 +158,7 @@ header .imageHeader {
   border-radius: 0px 15px 15px 0px;
   width: 0px;
   justify-content: center;
-<<<<<<< HEAD
-=======
   transition: width 1s ease;
->>>>>>> tmp
 }
 .cardCarteRepas .cardDetailleRepas:hover .contenantCheck {
   width: 60px;
@@ -191,15 +169,8 @@ header .imageHeader {
 .cardCarteRepas .cardDetailleRepas:hover .check {
   display: block;
 }
-<<<<<<< HEAD
-.cardCarteRepas .cardDetailleRepas:not(:hover) .contenantCheck {
-  animation: return 1s ease;
-  transform-origin: left;
-  transition-property: all;
-=======
 .cardCarteRepas .cardDetailleRepas:hover .texteWitdh {
   width: calc(100% - 60px);
->>>>>>> tmp
 }
 .cardCarteRepas .cardDetailleRepas .check {
   color: white;
@@ -235,10 +206,7 @@ header .imageHeader {
   padding: 16px 90px;
   color: white;
   border: none;
-<<<<<<< HEAD
-=======
   cursor: pointer;
->>>>>>> tmp
 }
 .directionBouton .reservationCommander:hover {
   background: linear-gradient(355deg, #9356DC -5.2%, #FF79DA 110.74%);
@@ -308,10 +276,7 @@ header .imageHeader {
   .sectionCarte {
     margin: 200px 15% 0 15%;
     padding: 10px 15% 50px 15%;
-<<<<<<< HEAD
-=======
     top: 0;
->>>>>>> tmp
   }
   .sectionCarte .titreRestaurant {
     justify-content: center;
@@ -321,11 +286,7 @@ header .imageHeader {
   .footer {
     flex-direction: row-reverse;
     padding: 64px 26px 31px;
-<<<<<<< HEAD
-    gap: 40px;
-=======
     gap: 90px;
->>>>>>> tmp
   }
   .footer .imageFooter {
     padding: 0px;
