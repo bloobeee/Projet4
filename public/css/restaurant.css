@@ -17,6 +17,7 @@ p {
 
 h1 {
   margin: 0;
+  font-family: "Shrikhand", cursive;
 }
 
 h2 {
@@ -87,6 +88,7 @@ header .imageHeader {
 }
 .sectionCarte .animationCoeur {
   display: inline-flex;
+  cursor: pointer;
 }
 .sectionCarte .animationCoeur .fa-heart {
   font-size: 22px;
@@ -162,7 +164,6 @@ header .imageHeader {
 }
 .cardCarteRepas .cardDetailleRepas:hover .contenantCheck {
   width: 60px;
-  animation: left 1s ease;
   transform-origin: right;
   transition-property: all;
 }

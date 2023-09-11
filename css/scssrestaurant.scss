@@ -21,6 +21,7 @@ p {
 
 h1 {
     margin: 0;
+    font-family: "Shrikhand", cursive;
 }
 
 h2 {
@@ -102,6 +103,7 @@ header {
 
     .animationCoeur {
         display: inline-flex;
+        cursor: pointer;
 
         .fa-heart {
             font-size: 22px;
@@ -186,13 +188,13 @@ header {
                 width: 0px;
                 justify-content: center;
                 transition: width 1s ease;
+                
             }
         }
 
         &:hover {
             .contenantCheck {
                 width: 60px;
-                animation: left 1s ease;
                 transform-origin: right;
                 transition-property: all;
             }
