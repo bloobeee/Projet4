@@ -16,7 +16,7 @@ p {
     font-size: 16px;
     line-height: 19px;
     margin: 0px;
-    
+
 }
 
 h1 {
@@ -150,7 +150,7 @@ header {
         height: 65px;
         overflow: hidden;
         cursor: pointer;
-       
+
 
         .texteWitdh {
             width: 100%;
@@ -165,8 +165,11 @@ header {
                 font-size: 15px;
                 line-height: 18px;
                 text-align: start;
-                display: inline-block;
-                
+                margin-right: 20px;
+                overflow: hidden;
+                margin-right: 20px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
         }
 
@@ -188,7 +191,7 @@ header {
                 width: 0px;
                 justify-content: center;
                 transition: width 1s ease;
-                
+
             }
         }
 
